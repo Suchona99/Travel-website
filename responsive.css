@@ -1,0 +1,98 @@
+/* laptop  */
+
+@media screen and (max-width:1200px){
+.banner-content h1{
+font-size: 50px;
+}
+.service-card{
+    padding: 80px 20px;
+}
+
+.story-img img{
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+}
+
+
+
+
+
+/* tablet  */ 
+@media screen and (max-width:1024px){
+ #banner{
+    flex-direction: column-reverse;
+ }
+ .banner-content{
+    width: 100%;
+    text-align: center;
+ }
+ .banner-img{
+    width: 100%;
+ }
+.service-card-container{
+flex-direction: column;
+ }
+ .service-card{
+    max-width: 100%;
+ }
+ .story-card{
+   flex-direction: column;
+ }
+ .story-content{
+   width: 100%;
+ }
+ .story-img{
+   width: 100%;
+ }
+ .review-content{
+   flex-direction: column;
+   justify-content: center;
+}  
+.name {
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+   margin-top: 10px;
+}
+}
+
+
+
+
+/* mobile  */
+@media screen and (max-width:640px){
+.banner-content h1{
+font-size: 36px;
+}
+.banner-content{
+   text-align: center;
+} 
+.heading-content h2{
+    font-size: 32px;
+}
+#contry-card-container{
+   flex-direction: column;
+}
+.story-content{
+   text-align: center;
+}
+.btn , .white-btn{
+   padding: 12px 28px;
+} 
+.review-content{
+   flex-direction: column;
+   justify-content: center;
+}  
+.name {
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+   margin-top: 10px;
+}
+footer{
+   flex-direction: column;
+   gap: 10px;
+}
+}
